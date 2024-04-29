@@ -18,6 +18,7 @@ case $TARGET_OS_CMAKE in
   freebsd) TARGET_OS_CMAKE="FreeBSD";;
   windows) TARGET_OS_CMAKE="Windows";;
   linux) TARGET_OS_CMAKE="Linux";;
+  linux) TARGET_OS_CMAKE="Haiku";;
   native) TARGET_OS_CMAKE="";;
 esac
 
